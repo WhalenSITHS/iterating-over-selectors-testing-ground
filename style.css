@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+*, *::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: default;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: royalblue;
+}
+.flex-row{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.flex-item{
+    background-color: crimson;
+    height: 8rem;
+}
+.flex-item img{
+    height: 15rem;
+}
