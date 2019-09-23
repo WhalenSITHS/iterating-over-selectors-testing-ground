@@ -27,13 +27,17 @@ function init() {
            });
             //console.log(testArr);
             function testBank(){
-                testArr.forEach(function(element) {
+                /* testArr.forEach(function(element) {
                     for (i = 0; i < namesArr.length; i++){
                         namesArr[i].textContent = element.name;
                     }
                     //namesArr[0].textContent = element.name;
                     //console.log(element.name);
-                })
+                }) */
+
+                for (i = 0; i < namesArr.length; i++){
+                    namesArr[i].textContent = testArr[i].name;
+                }
             }
             testBank();
         })
